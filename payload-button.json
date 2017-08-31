@@ -1,0 +1,41 @@
+{
+    "text": "Create Purchase Order",
+    "attachments": [
+        {
+            "title": "Create Purchase Order",
+            "callback_id":"create_purchase_order",
+            "color": "#4C83B3",
+            "fields": [
+            	{
+                    "title": "Product Name",
+                    "value": "Product",
+                    "short": true
+                },
+                {
+                    "title": "Quantity",
+                    "value": "3",
+                    "short": true
+                },
+                {
+                    "title": "Id",
+                    "value": "12020323",
+                    "short": true
+                },
+                {
+                    "title": "Supplier",
+                    "value": "Whatever",
+                    "short": true
+                }
+            ],
+            "actions":[  
+            {  
+               "name":"approve",
+               "text":"Order",
+               "type":"button",
+               "value":"approve",
+               "style": "primary"
+            }
+         ]
+        }
+    ]
+}
